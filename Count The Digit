@@ -1,0 +1,9 @@
+def nb_dig(n, d):
+    digit = []
+    for k in range(0, n+1):
+        digit.append(k**2)
+    count = str(digit).count(str(d))
+    print(count)
+    return count
+
+nb_dig(12224,8)
